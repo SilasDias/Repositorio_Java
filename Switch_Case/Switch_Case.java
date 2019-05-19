@@ -29,7 +29,7 @@ class Switch_Case{
     case 12: System.out.println("Dezembro"); break;
     default: System.out.println("Mes invalido"); break;
     }
-    System.out.println();
+    //System.out.println();
   }
 }
 

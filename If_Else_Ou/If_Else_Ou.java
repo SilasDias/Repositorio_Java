@@ -13,16 +13,14 @@ class If_Else_Ou {
     codigo = s.nextInt();
     
     if (codigo == 1 && codigo == 2 && codigo == 3) {
-        if (codigo == 1) {
+        } else if (codigo == 1){
             System.out.println("Um");
-        }
-            if (codigo == 2) {
+            }else if (codigo == 2) {
                 System.out.println("Dois");
-            }
-                if (codigo == 3) {
+                }
+                else if(codigo == 3) {
                 System.out.println("Três");
                 }
-     }
      else {
      System.out.println("Codigo invalido");
      }
