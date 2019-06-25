@@ -1,0 +1,21 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007f62c4b48ea1, pid=3895, tid=3911
+#
+# JRE version: OpenJDK Runtime Environment (11.0.3+1) (build 11.0.3+1-Debian-1)
+# Java VM: OpenJDK 64-Bit Server VM (11.0.3+1-Debian-1, mixed mode, sharing, tiered, compressed oops, g1 gc, linux-amd64)
+# Problematic frame:
+# C  [libjimage.so+0x2ea1]
+#
+# No core dump will be written. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:42613 -javaagent:/home/m0nk3ydr4k3/Documentos/eclipse/configuration/org.eclipse.osgi/400/0/.cp/lib/javaagent-shaded.jar -Dfile.encoding=UTF-8 --module-path=/home/m0nk3ydr4k3/Documentos/Repositorio_Java/course/bin -Djdk.module.main=course course/course.Program
+
+Host: Intel(R) Core(TM) i5 CPU       M 430  @ 2.27GHz, 4 cores, 3G, 
