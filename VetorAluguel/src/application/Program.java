@@ -14,7 +14,7 @@ public class Program {
 		System.out.print("How many rooms will be rented? ");
 		int n = sc.nextInt();
 		Busy[] vect = new Busy[9];
-		
+		 
 		int room = 0;
 		for(int i=0; i < n; i++) {
 			sc.nextLine();
